@@ -1,6 +1,6 @@
 # Garment Chokepoint Monitor
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23734645.svg)](https://doi.org/10.5281/zenodo.23734645)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23734646.svg)](https://doi.org/10.5281/zenodo.23734646)
 
 How shipping chokepoints change the prices and routes of Bangladesh's garment exports.
 
@@ -16,11 +16,23 @@ The paper compares the price per kilo (unit value) of Bangladeshi garments impor
 | `data/raw/` | The Eurostat data used in the paper (the Japan data must be downloaded; see below) |
 | `data/README.md` | Sources, download dates, licenses and variable definitions |
 | `code/` | Numbered scripts, run in order |
-| `output/tables/`, `output/figures/` | The tables and figures in the paper, as produced by the code |
+| `output/tables/`, `output/figures/` | The tables and figures in the paper, as produced by the code (see below) |
+
+Which output file goes with which part of the paper:
+
+| File | In the paper |
+|---|---|
+| `output/tables/table1_summary.csv` | Table 1 |
+| `output/tables/table2_did.csv` | Table 2, every row except the placebo |
+| `output/tables/table4_extra_checks.csv` | Table 2, placebo row |
+| `output/tables/table3_eu_air_share.csv` | Air shares in Section 5 |
+| `output/tables/gap_by_month.csv` | Monthly EU minus Japan gap behind the month counts in Section 5 |
+| `output/figures/figure1_unit_values.png` | Figure 1 |
+| `output/figures/figure2_eu_air_share.png` | Figure 2 |
 
 ## How to reproduce the results
 
-You need Python 3.10 or later.
+The results in the paper were produced with Python 3.13 and the package versions pinned in `requirements.txt`.
 
 ```
 pip install -r requirements.txt
@@ -44,9 +56,6 @@ As stated in the paper, the author used Claude (Anthropic), an AI assistant, to 
 
 ## How to cite
 
-Azom, Kazi Affnann (2026). *Garment Chokepoint Monitor (v1.0.0: replication package for 'Who Paid for the Red Sea Crisis?')* (Version v1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23734646
+Azom, Kazi Affnann. 2026. "Garment Chokepoint Monitor (v1.0.0: Replication Package for 'Who Paid for the Red Sea Crisis?')." Zenodo. https://doi.org/10.5281/zenodo.23734646
 
-- This version (v1.0.0): [10.5281/zenodo.23734646](https://doi.org/10.5281/zenodo.23734646)
-- All versions (always points to the latest): [10.5281/zenodo.23734645](https://doi.org/10.5281/zenodo.23734645)
-
-See also `CITATION.cff`.
+The same details are in `CITATION.cff`.

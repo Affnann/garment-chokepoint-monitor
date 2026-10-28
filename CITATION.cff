@@ -2,11 +2,8 @@ cff-version: 1.2.0
 message: "If you use this code, please cite it as below."
 title: "Garment Chokepoint Monitor (v1.0.0: replication package for 'Who Paid for the Red Sea Crisis?')"
 version: 1.0.0
-doi: "10.5281/zenodo.23734646"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.23734645"
-    description: "Concept DOI for all versions"
+doi: 10.5281/zenodo.23734646
+date-released: 2026-10-28
 license: MIT
 authors:
   - family-names: Azom
