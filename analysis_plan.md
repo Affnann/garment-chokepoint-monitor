@@ -1,4 +1,4 @@
-# Paper 4 (short version): analysis plan
+# Analysis plan: Who Paid for the Red Sea Crisis?
 
 Written October 28, 2026, before any comparison between the EU and Japan was computed.
 Changes after this date are listed at the bottom with the reason.
@@ -50,3 +50,5 @@ mix changes. The paper will say this plainly.
 - The main results came out with the opposite sign to the "buyers pay the freight" reading
   in the Question above (EU unit values fell relative to Japan). The analysis itself was not
   changed; only the interpretation in the paper follows the result.
+- October 28, 2026, after release v1.0.0: the heading's working title ("Paper 4 (short
+  version)") was replaced with the paper's title. Nothing else in the plan was changed.
