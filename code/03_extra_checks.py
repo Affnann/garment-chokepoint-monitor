@@ -2,7 +2,8 @@
 
 1. Placebo: pretend the shock happened in December 2022. Before = Jan-Nov 2022, after = Dec 2022-Nov 2023.
    If EU prices were already falling relative to Japan, this will show a negative estimate too.
-2. Month-by-month gap between EU and Japan log unit values, for the figure in the appendix.
+2. Month-by-month gap between EU and Japan log unit values, saved to output/tables/gap_by_month.csv
+   (the monthly comparisons in Section 5 of the paper come from it).
 """
 from pathlib import Path
 import numpy as np

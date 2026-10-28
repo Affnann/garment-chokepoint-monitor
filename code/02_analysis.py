@@ -1,4 +1,4 @@
-"""Pre-specified analysis for Paper 4 (see analysis_plan.md).
+"""Pre-specified analysis (see analysis_plan.md).
 
 Reads data/clean/panel.csv. Writes tables to output/tables and figures to output/figures.
 """
