@@ -4,9 +4,20 @@
 
 How shipping chokepoints change the prices and routes of Bangladesh's garment exports.
 
-Release v1.0.0 is the replication package for Kazi Affnann Azom (2026), "Who Paid for the Red Sea Crisis? Bangladeshi Garment Prices in the EU and Japan," preprint.
+## What this project does
 
-The paper compares the price per kilo (unit value) of Bangladeshi garments imported by the European Union, whose shipments used the Red Sea route, with the same goods imported by Japan, whose shipments did not, before and after the shipping diversions that began in December 2023. Over the following year, EU-bound garments became 5.5 percent cheaper per kilo relative to Japan-bound garments (95 percent confidence interval: 2.9 to 8.0 percent).
+The European Union is the largest market for Bangladeshi garments, and the ships that carry them normally pass through the Red Sea. When shipping lines began diverting ships away from the Red Sea in December 2023, the question was who would pay for the longer trip. This project builds a monthly dataset of Bangladeshi garment imports (HS chapters 61 and 62) into two destinations and compares them:
+
+- **European Union (EU-27):** its shipments used the Red Sea route.
+- **Japan:** its shipments do not pass through the Red Sea.
+
+For each month it computes the price per kilo (unit value = import value / weight) and the quantity, and, for the EU, the share of kilograms arriving by air instead of by sea. The code downloads the public data, builds the clean monthly table, and produces the summary tables, a difference-in-differences comparison, and two figures.
+
+Main result: over the year after the diversions began (December 2023 to November 2024, compared with the same months a year earlier), EU-bound garments became 5.5 percent cheaper per kilo relative to Japan-bound garments (95 percent confidence interval: 2.9 to 8.0 percent). The EU's air share rose from 3.5 to 6.2 percent of kilograms.
+
+## Research paper
+
+Release v1.0.0 is the replication package for Kazi Affnann Azom (2026), "Who Paid for the Red Sea Crisis? Bangladeshi Garment Prices in the EU and Japan," preprint. The tables and figures in the paper are the files produced by the code here (see the table below).
 
 ## What is here
 
@@ -16,9 +27,9 @@ The paper compares the price per kilo (unit value) of Bangladeshi garments impor
 | `data/raw/` | The Eurostat data used in the paper (the Japan data must be downloaded; see below) |
 | `data/README.md` | Sources, download dates, licenses and variable definitions |
 | `code/` | Numbered scripts, run in order |
-| `output/tables/`, `output/figures/` | The tables and figures in the paper, as produced by the code (see below) |
+| `output/tables/`, `output/figures/` | The summary tables and figures, as produced by the code (see below) |
 
-Which output file goes with which part of the paper:
+Which output file goes with which part of the paper (v1.0.0):
 
 | File | In the paper |
 |---|---|
@@ -32,7 +43,7 @@ Which output file goes with which part of the paper:
 
 ## How to reproduce the results
 
-The results in the paper were produced with Python 3.13 and the package versions pinned in `requirements.txt`.
+The results were produced with Python 3.13 and the package versions pinned in `requirements.txt`.
 
 ```
 pip install -r requirements.txt
