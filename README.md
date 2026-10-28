@@ -50,10 +50,6 @@ Statistics offices revise recent months, so a download made after October 28, 20
 
 The code is released under the MIT License (see `LICENSE`). The data keep the terms of their sources: Eurostat data may be reused with acknowledgment of the source; UN Comtrade data may not be republished without the United Nations' permission, which is why this repository includes the download script instead of the Japan data. See `data/README.md`.
 
-## AI use
-
-As stated in the paper, the author used Claude (Anthropic), an AI assistant, to write the code, search for and check sources, and draft and edit text. The author approved the research question, data sources and analysis plan, and checked the results.
-
 ## How to cite
 
 Azom, Kazi Affnann (2026). *Garment Chokepoint Monitor (v1.0.0: replication package for 'Who Paid for the Red Sea Crisis?')* (Version v1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23734646
