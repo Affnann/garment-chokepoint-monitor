@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+# UN Comtrade data may not be republished: keep it out of the repository
+data/raw/comtrade_*.csv
+data/clean/

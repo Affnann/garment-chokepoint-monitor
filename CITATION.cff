@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Garment Chokepoint Monitor (v1.0.0: replication package for 'Who Paid for the Red Sea Crisis?')"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Azom
+    given-names: Kazi Affnann
+    orcid: "https://orcid.org/0009-0001-5998-7642"
+repository-code: "https://github.com/Affnann/garment-chokepoint-monitor"
+keywords:
+  - Red Sea crisis
+  - shipping costs
+  - garment exports
+  - Bangladesh
+  - unit values
