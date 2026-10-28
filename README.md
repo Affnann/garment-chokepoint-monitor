@@ -1,5 +1,7 @@
 # Garment Chokepoint Monitor
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23734645.svg)](https://doi.org/10.5281/zenodo.23734645)
+
 How shipping chokepoints change the prices and routes of Bangladesh's garment exports.
 
 Release v1.0.0 is the replication package for Kazi Affnann Azom (2026), "Who Paid for the Red Sea Crisis? Bangladeshi Garment Prices in the EU and Japan," preprint.
@@ -42,4 +44,9 @@ As stated in the paper, the author used Claude (Anthropic), an AI assistant, to 
 
 ## How to cite
 
-See `CITATION.cff`, or use the DOI on this repository's Zenodo record.
+Azom, Kazi Affnann (2026). *Garment Chokepoint Monitor (v1.0.0: replication package for 'Who Paid for the Red Sea Crisis?')* (Version v1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23734646
+
+- This version (v1.0.0): [10.5281/zenodo.23734646](https://doi.org/10.5281/zenodo.23734646)
+- All versions (always points to the latest): [10.5281/zenodo.23734645](https://doi.org/10.5281/zenodo.23734645)
+
+See also `CITATION.cff`.
