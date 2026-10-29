@@ -17,7 +17,7 @@ Main result: over the year after the diversions began (December 2023 to November
 
 ## Research paper
 
-Release v1.0.0 is the replication package for Kazi Affnann Azom (2026), "Who Paid for the Red Sea Crisis? Bangladeshi Garment Prices in the EU and Japan," preprint. The tables and figures in the paper are the files produced by the code here (see the table below).
+Release v1.0.0 is the replication package for Kazi Affnann Azom (2026), "Who Paid for the Red Sea Crisis? Bangladeshi Garment Prices in the EU and Japan," preprint, Zenodo, [https://doi.org/10.5281/zenodo.23770054](https://doi.org/10.5281/zenodo.23770054). The tables and figures in the paper are the files produced by the code here (see the table below).
 
 ## What is here
 
